@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Metro upload interface</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="modal fade in" style="display:block">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header bg-info">
+					<div class="input-group">
+						<div class="form-control">
+							Upload Files
+						</div>
+						<span class="input-group-addon">
+							<span class="glyphicon glyphicon-cloud-upload"></span>
+						</span>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="list-group">
+						<div class="list-group-item uploaded">
+							<span class="badge"><span class="glyphicon glyphicon-remove-circle"></span></span>
+							<span class="text-info">fileuploaded.xls (12KB)</span>
+						</div>
+						<div class="list-group-item uploaded">
+							<span class="badge"><span class="glyphicon glyphicon-remove-circle"></span></span>
+							<span class="text-info">fileuploaded.psd (3.5MB)</span>
+						</div>
+						<div class="list-group-item uploading first">
+							<p>
+								<span class="glyphicon glyphicon-upload"></span>
+								<span>content.doc( 126KB)</span>
+							</p>
+							<div class="progress">
+								<div class="progress-bar" style="width:60%"></div>
+							</div>
+						</div>
+						<div class="list-group-item uploading">
+							<p>
+								<span class="glyphicon glyphicon-upload"></span>
+								<span>graphicsfuel (584KB)</span>
+							</p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" style="width:80%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="row">
+						<div class="col-md-4">
+							<button class="btn btn-danger btn-block">
+								<span class="clearfix">
+									<span class="pull-right">
+										<span class="glyphicon glyphicon-plus"></span>
+									</span>
+									Upload
+								</span>
+							</button>
+						</div>
+						<div class="col-md-4">
+							<button class="btn btn-primary btn-block">
+								<span class="clearfix">
+									<span class="pull-right">
+										<span class="glyphicon glyphicon-ok-circle"></span>
+									</span>
+									Done
+								</span>
+							</button>
+						</div>
+						<div class="col-md-4">
+							<button class="btn btn-muted btn-block">
+								<span class="clearfix">
+									<span class="pull-right">
+										<span class="glyphicon glyphicon-ban-circle"></span>
+									</span>
+									Cancel
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
